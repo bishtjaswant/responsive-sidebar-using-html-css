@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>respponsive sidebar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+
+    <!-- header css  -->
+    <header class="header">
+        <div class="header__container">
+            <img src="./assets/img/perfil.jpg" alt="" class="header__img">
+            <a href="#" class="header__logo">jaswant</a>
+            <div class="header__search">
+                <input type="text" class="header__search-input" placeholder="search....">
+                <i class='bx bx-search search__icon'></i>
+            </div>
+            <div class="header__toggle">
+                <i class='bx bx-menu' id="header__toggle"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- navbar  -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar__container">
+            <div class="">
+                <a href="#" class="navbar__link navbar__logo">
+                    <i class='bx bxs-disc navbar__icon'></i>
+                    <span class="navbar__logo-name">jaswant</span>
+                </a>
+
+                <div class="navbar__list">
+                    <!-- navbar item 1 -->
+                    <div class="navbar__item">
+                        <h3 class="navbar__subtitle">profile</h3>
+                        <a href="#" class="navbar__link">
+                            <i class="bx bx-home navbar__item_logo"></i>
+                            <span class="navbar__name">home</span>
+                        </a>
+                        <div class=" navbar__dropdown_menu">
+                            <a href="#" class="navbar__link">
+                                <i class="bx bx-user navbar__item_logo"></i>
+                                <span class="navbar__name">profile</span>
+                                <i class="bx bx-chevron-down navbar__dropdown_icon"></i>
+                            </a>
+                            <div class=" navbar__dropdown_collapse">
+                                <div class="navbar__dropdown_content">
+                                    <a href="#" class="navbar__dropdown_collapse_link">password</a>
+                                    <a href="#" class="navbar__dropdown_collapse_link">mail</a>
+                                    <a href="#" class="navbar__dropdown_collapse_link">account</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <a href="#" class="navbar__link">
+                            <i class="bx bx-message-rounded navbar__item_logo"></i>
+                            <span class="navbar__name">message</span>
+                        </a>
+
+                    </div>
+
+                    <!-- navbar item 2 -->
+                    <div class="navbar__item">
+                        <h3 class="navbar__subtitle">menu</h3>
+
+                        <div class=" navbar__dropdown_menu">
+                            <a href="#" class="navbar__link">
+                                <i class="bx bx-bell navbar__item_logo"></i>
+                                <span class="navbar__name">notification</span>
+                                <i class="bx bx-chevron-down navbar__dropdown_icon"></i>
+                            </a>
+                            <div class=" navbar__dropdown_collapse">
+                                <div class="navbar__dropdown_content">
+                                    <a href="#" class="navbar__dropdown_collapse_link">blocked</a>
+                                    <a href="#" class="navbar__dropdown_collapse_link">draft</a>
+                                    <a href="#" class="navbar__dropdown_collapse_link">published</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+
+                    
+                        <a href="#" class="navbar__link">
+                            <i class="bx bx-compass navbar__item_logo"></i>
+                            <span class="navbar__name">explore</span>
+                        </a>
+                        <a href="#" class="navbar__link">
+                            <i class="bx bx-bookmark navbar__item_logo"></i>
+                            <span class="navbar__name">saved</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- logout  -->
+
+            <a href="#" class="navbar__link navbar__logout ">
+                <i class="bx bx-log-out logout__icon "></i>
+                <span class="navbar__name">logout</span>
+            </a>
+
+
+        </div>
+    </nav>
+
+
+    <!-- main  -->
+    <main class="main__content">
+       
+        <div class="">
+            <h2>home</h2>
+        </div>
+
+        <div class=""></div>
+
+
+    </main>
+
+    <script src="./assets/js/app.js"></script>
+
+</body>
+
+</html>
